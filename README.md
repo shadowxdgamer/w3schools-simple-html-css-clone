@@ -5,10 +5,10 @@
 If you're interested in using this repository as a template, please consider forking it and leaving a star.
 
 <div align="center">
-  <img src='https://img.shields.io/github/issues/shadowxdgamer/w3schools-simple-html-css-clone.github.io?style=for-the-badge&logo=appveyor' />
-  <img src='https://img.shields.io/github/forks/shadowxdgamer/w3schools-simple-html-css-clone.github.io?style=for-the-badge&logo=appveyor' />
-  <img src='https://img.shields.io/github/stars/shadowxdgamer/w3schools-simple-html-css-clone.github.io?style=for-the-badge&logo=appveyor' />
-  <img src='https://img.shields.io/github/license/shadowxdgamer/w3schools-simple-html-css-clone.github.io?style=for-the-badge&logo=appveyor' />
+  <img src='https://img.shields.io/github/issues/shadowxdgamer/w3schools-simple-html-css-clone?style=for-the-badge&logo=appveyor' />
+  <img src='https://img.shields.io/github/forks/shadowxdgamer/w3schools-simple-html-css-clone?style=for-the-badge&logo=appveyor' />
+  <img src='https://img.shields.io/github/stars/shadowxdgamer/w3schools-simple-html-css-clone?style=for-the-badge&logo=appveyor' />
+  <img src='https://img.shields.io/github/license/shadowxdgamer/w3schools-simple-html-css-clone?style=for-the-badge&logo=appveyor' />
 </div>
 
 ## Table of Contents
