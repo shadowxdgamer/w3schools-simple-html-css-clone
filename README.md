@@ -23,7 +23,7 @@ If you're interested in using this repository as a template, please consider for
 
 ## Demo
 
-[View the live demo](#) *(Replace with a link to your deployed project)*
+[View the live demo]([#](https://shadowxdgamer.github.io/w3schools-simple-html-css-clone/source/login.html))
 
 ## Screenshots
 ![🔐 Login Screen](screenshots/Login-page.png)
