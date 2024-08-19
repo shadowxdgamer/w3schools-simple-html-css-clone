@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex; /* flexbox*/
+    align-items: center; /* align form to center*/
+    justify-content: center; /* align form to center*/
+    height: 100vh;
+    background-image:url("../assets/Backgrounds/background2.jpg"); /* image d’arrière plan */
+    background-size:cover; /* l’image occupe la totalité de la page */
+    background-repeat:no-repeat; /* pas de répétition de l’image */
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    background: linear-gradient(to top right, #013076, #F22288);
+
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #A22874;
+    font-family: Text;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #012967;
+    font-family: Text;
+    font-size: 20px;
+}
+
+input {
+width: 100%;
+padding: 12px; /* Increase padding for better touch experience */
+margin-bottom: 15px; /* A bit more space between input fields */
+border: 2px solid #012967; /* Add a solid border */
+border-radius: 8px;
+font-family: 'Arial', sans-serif; /* Use a more common font */
+font-size: 16px;
+outline: none;
+transition: border-color 0.3s, box-shadow 0.3s; /* Add a smooth transition effect */
+box-sizing: border-box;
+}
+
+/* Adjust the focus style for better accessibility */
+input:focus{
+border-color: #A22874;
+box-shadow: 0 0 10px #A22874;
+}
+
+button {
+font-size: 20px; /* Increase button font size */
+color: #fff;
+padding: 12px;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+width: 100%;
+background: linear-gradient(to bottom right, #013076 30%, #F22288);
+}
+
+button:hover {
+background: linear-gradient(to bottom left, #013076 30%, #F22288);
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup-link a {
+    color: #00215B;
+    text-decoration: none;
+    
+}
+.signup-link a:hover{
+    text-decoration: underline;
+}
+@font-face {
+font-family: 'Header'; /* Your chosen font name */
+src: url('../assets/Fonts/ways.woff') format('woff'),
+ url('../assets/Fonts/ways2.woff2') format('woff2');
+/* Add other font formats if available */
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Text'; /* Your chosen font name */
+src: url('../assets/Fonts/lato.ttf') format('ttf'),
+/* Add other font formats if available */
+
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="icon" href="../assets/Logo/html-5-logo-svgrepo-com.svg" type="image/svg+xml">
+</head>
+
+<body>
+    <form method="post" action="index.html">
+        <h1>Connectez-vous</h1>
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" id="username" name="username" minlength = 3 maxlength="13" required autofocus>
+
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}"
+        title="Doit contenir au moins un chiffre, une lettre majuscule et minuscule, et au moins 8-16 caractères ou plus" required>
+
+        <button type="submit">Se connecter</button>
+
+        <div class="signup-link">
+            <p>Vous n'avez pas de compte? <a href="../source/register.html">Inscrivez-vous</a></p>
+        </div>
+    </form>
+</body>
+
+</html>

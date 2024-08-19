@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    background-image:url("../assets/Backgrounds/background1.jpg"); /* image d’arrière plan */
+    background-size:cover; /* l’image occupe la totalité de la page */
+    background-repeat:no-repeat; /* pas de répétition de l’image */
+}
+h1 {
+    text-align: center;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #A22874;
+    font-family: Text;
+}
+p {
+    display: block;
+    margin: 10px 0 5px;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #012967;
+    font-family: Text;
+    font-size: 20px;
+}
+
+header img{
+    width:5%; height:5%;
+}
+header{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    background: linear-gradient(to right, #737FEF, #E592C0);
+}
+header nav{
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    position: absolute;
+    top : 22px;
+    left:500px;
+    text-align: center;
+    background: linear-gradient(to right, #737FEF, #E592C0);
+    
+
+}
+nav a {
+    margin-left: 20px;
+    color: #00215B;
+    text-decoration: none;
+    font-family : Text;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #012967;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    display: flex;
+    background: linear-gradient(to right, #737FEF, #E592C0);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    height: auto;
+}
+article{
+    margin-top: 20px;
+    background: linear-gradient(to right, #737FEF, #E592C0);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1366px;
+    
+}
+table {
+    border: 1;
+    margin: 0 auto;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #012967;
+    font-family: Text;
+    font-size: 20px;
+}
+td img{
+    height: 35px;
+    width: 35px;
+}
+
+#personal {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: auto; /*l'image deplace à droite */
+    margin-right: 150px; /* Annule marge droite */
+}
+section p {
+    display: block;
+    margin-top: 20px;
+}
+a{
+    color: #00215B;
+    text-decoration: none;
+}
+
+
+
+
+
+footer {
+    margin-top: 20px;
+    background: linear-gradient(to right, #737FEF, #E592C0);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+footer a {
+    color: #00215B;
+    text-decoration: none;
+    margin: 0 10px;
+}
+span a:hover{
+    border: 2px solid black;
+    border-radius: 50px;
+    border-style: dashed;
+    padding: 4px;
+    color: red;
+}
+
+
+.clear{
+    clear: both;
+}
+@font-face {
+    font-family: 'Header'; /* Your chosen font name */
+    src: url('../assets/Fonts/ways.woff') format('woff'),
+     url('../assets/Fonts/ways2.woff2') format('woff2');
+    /* Add other font formats if available */
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Text'; /* Your chosen font name */
+    src: url('../assets/Fonts/lato.ttf') format('ttf'),
+    /* Add other font formats if available */
+    
+    }

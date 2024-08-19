@@ -1,0 +1,240 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+
+    background-image:url("../assets/Backgrounds/background1.jpg"); /* image d’arrière plan */
+    background-size:cover; /* l’image occupe la totalité de la page */
+    background-repeat:no-repeat; /* pas de répétition de l’image */
+}
+h1 {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #A22874;
+    font-family: Text;
+}
+p,pre,li {
+    display: block;
+    margin: 10px 0 5px;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #012967;
+    font-family: Text;
+    font-size: 20px;
+}
+
+header img{
+    width:5%; height:5%;
+}
+header{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    background: linear-gradient(to right, #737FEF, #E592C0);
+}
+header nav{
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    position: absolute;
+    top : 22px;
+    left:500px;
+    text-align: center;
+    background: linear-gradient(to right, #737FEF, #E592C0);
+    
+
+}
+.htmlcss {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 120px; /* Largeur de l'élément à gauche */
+    height: 25px; /* Ajuste la hauteur en fonction du contenu */
+    position: absolute;
+    top: 115px;
+    left: 650px; /* Ajuste la position à gauche */
+    background: linear-gradient(to bottom, #737FEF, #E592C0); /* Dégradé vertical */
+}
+
+.htmlcss nav{
+    text-align: center; /* Centre le texte à l'intérieur de la navigation */
+    display: flex; /* Affiche les éléments horizontalement */
+}
+
+.htmlcss nav a {
+    display: block;
+    margin-bottom: 10px;
+    color: #00215B;
+    text-decoration: none;
+    font-family: 'Text';
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #012967;
+}
+
+.htmlcss nav a:hover {
+    text-decoration: underline;
+}
+nav a {
+    margin-left: 20px;
+    color: #00215B;
+    text-decoration: none;
+    font-family : Text;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #012967;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    display: flex;
+    background: linear-gradient(to right, #737FEF, #E592C0);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+}
+article{
+    margin-top: 20px;
+    background: linear-gradient(to right, #737FEF, #E592C0);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 155vh;
+    height: auto;
+    
+}
+#laptop-img {
+    position: relative;
+    height: 30%;
+    width: 30%;
+    border-radius: 25%;
+    margin-left: auto; /* Déplace l'image vers la droite */
+    margin-right: 100px; /* Annule toute marge à droite */
+    margin-top: 50px;
+}
+section p {
+    display: block; /* Force le paragraphe à être affiché en bloc */
+    margin-top: 20px; /* Ajoute un espacement entre le paragraphe et l'image */
+}
+a{
+    color: #00215B;
+    text-decoration: none;
+}
+/* Ajout des styles pour la navigation des cours */
+.cours-navigation {
+    background: linear-gradient(to right, #737FEF, #E592C0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+.nav-active{
+        border: 2px solid black; /* Couleur et épaisseur de la bordure */
+        border-radius: 50px; /* Rayon pour rendre les coins arrondis */
+        border-style: dashed;
+        padding: 10px; /* Ajoute un espace à l'intérieur de la bordure */
+        display: inline-block;
+}
+
+.cours-navigation ul {
+    list-style: none;
+
+}
+
+.cours-navigation li {
+    margin-bottom: 10px;
+}
+
+.cours-navigation a {
+    color: #00215B;
+    text-decoration: none;
+    font-family: Text;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #012967;
+}
+.cours-navigation a:hover{
+    text-decoration: underline;
+}
+
+/* Ajout des styles pour le contenu du cours */
+.cours-content {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; /* Utilise tout l'espace disponible restant */
+    margin-left: 20px; /* Espacement entre la navigation et le contenu du cours */
+}
+.main-section{
+    margin-top: 60px;
+}
+
+button {
+    font-size: 20px; /* Increase button font size */
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    background: linear-gradient(to bottom right, #013076 30%, #F22288);
+    }
+    
+    button:hover {
+    background: linear-gradient(to bottom left, #013076 30%, #F22288);
+    }
+
+
+
+
+
+footer a {
+    color: #00215B;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Ajout des styles pour le pied de page */
+footer {
+    background: linear-gradient(to right, #737FEF, #E592C0);
+    padding: 10px;
+    position: absolute;
+    width: calc(100% - 0px); /* Utilise la largeur complète de la page avec une marge de 20px de chaque côté */
+    margin-left: -20px; /* Ajuste la marge à gauche à 20px */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+span a:hover{
+    border: 2px solid black;
+    border-radius: 50px;
+    border-style: dashed;
+    padding: 4px;
+    color: red;
+}
+
+@font-face {
+    font-family: 'Header'; /* Your chosen font name */
+    src: url('../assets/Fonts/ways.woff') format('woff'),
+     url('../assets/Fonts/ways2.woff2') format('woff2');
+    /* Add other font formats if available */
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Text'; /* Your chosen font name */
+    src: url('../assets/Fonts/lato.ttf') format('ttf'),
+    /* Add other font formats if available */
+    
+    }

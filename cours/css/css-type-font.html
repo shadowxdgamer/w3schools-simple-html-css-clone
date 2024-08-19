@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="../../css/cours.css">
+    <link rel="icon" href="../../assets/Logo/html-5-logo-svgrepo-com.svg" type="image/svg+xml">
+</head>
+
+<body>
+    <header>
+        <a href="../../source/index.html"><img src="../../assets/Logo/htmlcss.png" alt=""></a>
+        <nav>
+            <a href="../../source/index.html">Accueil</a>
+            <a href="#">Cours</a>
+            <a href="../../source/contact.html">Contact</a>
+            <a href="../../source/propos.html">À propos</a>
+        </nav>
+    </header>
+    <section>
+        <div class="htmlcss">
+            <nav>
+                <a href="../../source/cour-index.html">HTML</a>
+                <a href="./cour-css-index.html">CSS</a>
+            </nav>
+        </div>
+        <section class="main-section">
+            <aside class="cours-navigation">
+                <!-- Contenu nav -->
+                <ul>
+                    <li><a href="./cour-css-index.html" >Acceuil CSS</a></li>
+                    <li><a href="#" class="nav-active">CSS type font</a></li>
+                    <li><a href="./cour-video.html">Video bases HTML</a></li>
+                    <li><a href="./cour-PDF.html">Exemple cours CSS PDF</a></li>
+
+                </ul>
+            </aside>
+    
+            <article class="cours-content">
+                <!-- Contenu du cours ici -->
+                <h1>font-style</h1>
+                <p>Permet de fixer l’inclinaison d’un texte. Elle accepte 4 valeurs différentes :</p> 
+                <ul>
+                    <li>• Normal (valeur par défaut) ;</li>
+                    <li>• Italic (change le texte en italique) ;</li>
+                    <li>• Oblique (pour forcer certaines polices d’être en italique) ;</li>
+                    <li>• Inherit (hérite des propriétés de l’élément parent).</li>
+                </ul>
+                <h1>
+                    font-size
+                </h1>
+                <p>Permet de modifier la taille de nos textes</p>
+                <h1>font-weight</h1>
+                <p>
+                    Permet de définir le poids d’un texte, c’est dire son épaisseur. Elle peut être :
+                </p>
+                <ul>
+                    <li>• Normal (la valeur par défaut);</li>
+                    <li>• Lighter (police plus fine);</li>
+                    <li>• Bold (la police est en gras);</li>
+                    <li>• Bolder (la police est encore plus en gras);</li>
+                    <li>• Une centaine compris entre 100 et 900 (du plus léger au plus gras, Notez que 400 correspond à normal et 700 à bold).</li>
+                    <li>• Inherit (hérite des styles de ses parents).</li>
+                </ul>
+                <h1>line-height</h1>
+                <p>Sert à fixer l’écartement, i.e la distance entre deux lignes de texte
+                <p>Exemple font-style</p>
+                </p>
+                <article>
+                        <pre>
+                            &lt;!DOCTYPE html&gt;
+                            &lt;html lang="fr"&gt;
+                            &lt;head&gt;
+                                &lt;meta charset="UTF-8"&gt;
+                                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                                &lt;title&gt;Titre de la page&lt;/title&gt;
+                            &lt;/head&gt;
+                            &lt;body&gt;
+                            
+                                &lt;h1&gt;Ceci est un titre&lt;/h1&gt;
+                                &lt;p&gt;Ceci est un paragraphe.&lt;/p&gt;
+                            
+                            &lt;/body&gt;
+                            &lt;/html&gt;                            
+                        </pre>
+                    
+                </article>
+                <a href="../../exemple_cours/font-style.html" target="_blank"><button>Testez!</button></a>
+                <p>Exemple font-weight</p>
+                <article>
+                    <pre>
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html lang="fr"&gt;
+                        &lt;head&gt;
+                            &lt;meta charset="UTF-8"&gt;
+                            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                            &lt;style&gt;
+                                .p1 { font-weight: bold; }
+                                .p2 { font-weight: 400; }
+                            &lt;/style&gt;
+                            &lt;title&gt;Titre de la page&lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                        
+                            &lt;p class="p1"&gt;Para 1&lt;/p&gt;
+                            &lt;p class="p2"&gt;Para 2&lt;/p&gt;
+                            &lt;p&gt;Para 3&lt;/p&gt;
+                        
+                        &lt;/body&gt;
+                        &lt;/html&gt;                        
+                    </pre>
+                
+            </article>
+            <a href="../../exemple_cours/font-weight.html" target="_blank"><button>Testez!</button></a>
+
+
+        </section>
+        </section>
+    <footer>
+        <p>© Tous droits d'auteur réservés, réalisé par<span><a href="../../source/propos.html">*Yassin Chaabani*</a></span>TI15</p>
+    </footer>
+</body>
+
+</html>
