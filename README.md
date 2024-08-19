@@ -9,6 +9,9 @@ If you're interested in using this repository as a template, please consider for
   <img src='https://img.shields.io/github/forks/shadowxdgamer/w3schools-simple-html-css-clone?style=for-the-badge&logo=appveyor' />
   <img src='https://img.shields.io/github/stars/shadowxdgamer/w3schools-simple-html-css-clone?style=for-the-badge&logo=appveyor' />
   <img src='https://img.shields.io/github/license/shadowxdgamer/w3schools-simple-html-css-clone?style=for-the-badge&logo=appveyor' />
+  <a>
+    https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fshadowxdgamer%2Fw3schools-simple-html-css-clone&countColor=%23263759
+  </a>
 </div>
 
 ## Table of Contents
