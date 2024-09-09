@@ -50,7 +50,7 @@ If you're interested in using this repository as a template, please consider for
 
 1. **📥 Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/w3schools-clone.git
+   git clone https://github.com/shadowxdgamer/w3schools-clone.git
    cd w3schools-clone
 
 ## 📄 License
